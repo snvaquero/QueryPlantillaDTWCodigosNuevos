@@ -1,0 +1,17 @@
+SELECT (T0.[U_U_PESO_SECUNDARIO] / $[$38.14.NUMBER])*$[$38.U_MedidaCli.NUMBER] --Esta es la cantidad
+FROM OITM T0 
+WHERE T0.[ItemCode] =$[$38.1.0] -- Codigo de Articulo en linea actual
+
+
+SELECT Concat('USD',T0.[Price]) FROM ITM1 T0 WHERE T0.[PriceList]=$[QUT1.U_Lista] AND T0.ItemCode=$[$38.1.0]
+
+Select 
+(select case when ($[$38.212.0])='PIEZA' 
+then $[RDR1.U_Cantidad.NUMBER] 
+else ROUND ((($[RDR1.U_Cantidad.NUMBER])/($[RDR1.U_CantpXq.NUMBER])),0)*($[RDR1.U_CantpXq.NUMBER])  end)
+
+
+if exists (select * from libros where cantidad=0)
+  (select titulo from libros where cantidad=0)
+ else
+  select 'No hay libros sin stock';
