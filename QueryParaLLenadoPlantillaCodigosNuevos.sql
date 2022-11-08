@@ -1,6 +1,6 @@
 select T0.ItemCode, T0.ItemName, T0.FrgnName,T0.ItmsGrpCod,T0.VATLiable,T0.PrchseItem,T0.SellItem,T0.InvntItem,T0.SuppCatNum,
 T0.MinLevel,t0.AssetItem,t0.ManSerNum,t0.ManBtchNum,t0.SalUnitMsr,t0.BuyUnitMsr,t0.GLMethod,T0.MaxLevel,t0.ByWh,t0.InvntryUom,
-T0.U_u_familiaa,T0.U_SubFamilia,T0.U_Marca
+T0.U_u_familiaa,T0.U_SubFamilia,T0.U_Marca,T0.U_UltimoItem
  from oitm T0
  where T0.ItemCode in (
  '2R12-12MP',

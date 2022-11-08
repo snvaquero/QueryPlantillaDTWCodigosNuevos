@@ -1,0 +1,113 @@
+[33mcommit 57b38a1d9a2e66bf42175b41840b2f98aa57064e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Nov 8 11:04:05 2022 -0600
+
+    Paso2(Archivo con nombre 02UltimoItemEricksonIniciar.txt contiene Plantilla para cargar via dtw ultimo item en tabla dbo.[@ULTIMOITEM])
+
+[33mcommit 78822d44e202f7a7565d45af1e68c529b838b478[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Nov 8 10:25:39 2022 -0600
+
+    Paso1(Archivo con Nombre 2daCargaPlantillaPrueba01Vf.xlsx contiene plantilla para segunda carga y final de articulos nuevos, los estare cargando de 100 en 100. Ademas contiene una Hoja de donde se toman cada columna para la plantilla a cargar, esto ultimo mencionado viene de una sql con nombre QueryParaLLenadoPlantillaCodigosNuevos.sql)
+
+[33mcommit bc52195e471548e1ed4b51fc1d26d1146f48ba02[m
+Author: Fazt <contact@fazweb.com>
+Date:   Fri Sep 2 11:09:34 2022 -0600
+
+    Se cargaron plantillas con nombres ITM1Items_Pricesfvf.txt y 01PlantillaPrueba2.xlsx, habia salido un error al cargar precios, era porque el precio decia null, se ha puesto en vacio y con eso se corrige
+
+[33mcommit 7621b46c965b80631ca4d3fa50f998bd69dc6bad[m
+Author: Fazt <contact@fazweb.com>
+Date:   Thu Sep 1 16:10:12 2022 -0600
+
+    Pasos hacer en casa para Carga Masiva Primero cargar Articulos nuevos, se deben crear los consecutivos, luego sql buscar precios y poner en plantilla a codigos nuevos, cargar plantilla precios
+
+[33mcommit 4701b0171004e61455e5710b71ad70969bc1c80a[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Aug 30 11:28:07 2022 -0600
+
+    El archvio Actividades.xlsx contiene las actividades q se van a realizar el dia de hoy 30 de Agosto de 2022
+
+[33mcommit fbf35195cc80e482cdd2d5f515a9d28f396abdae[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Aug 30 11:27:16 2022 -0600
+
+    El archivo 01PlantillaPrueba.txt contiene la plantilla que se va utilizar para cargar los articulos con sus nuevos codigos
+
+[33mcommit fe78d8162043d9e662379a456c35fd1d38ab69dc[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Aug 30 11:16:09 2022 -0600
+
+    se van a trabajar actividades pendientes y enviar por correo para el permiso de cargar hoy en la noche 30 de agosto de 2022
+
+[33mcommit 85d09c94ed391d1d645096412121105559aa85c3[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Aug 30 11:11:57 2022 -0600
+
+    Se agrega archivo 01PlantillaPrueba.xlsx, el cual contiene y ya probada plantilla para cargar articulos pasados por Agusto, estos vienen de archivo llamado clasificaciondeproductos.xlsx
+
+[33mcommit addc9c07bd634629068907d7ae76eb11ae0d4a6d[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Aug 30 10:45:26 2022 -0600
+
+    El archivo 01PlantillaPrueba.xlsx contiene plantilla que se va utilizar para cargar masivamente codigos nuevos, quedan visibles las columnas de los campos que se cargaran
+
+[33mcommit 1cd2098964e94ee571c7bd6aac2ef8016cf83157[m
+Author: Fazt <contact@fazweb.com>
+Date:   Tue Aug 30 09:58:19 2022 -0600
+
+    Se tuvo que actualizar columna codigoitem y columnas A Copiando columna b
+
+[33mcommit 329d79878e3b00eb2ad4504529c3070e0b577693[m
+Author: Fazt <contact@fazweb.com>
+Date:   Fri Aug 26 15:37:38 2022 -0600
+
+    en Hojae(3) es la plantilla que voy utilizar en Hoja1 estan las familias, marcas y subfamilias para agregarlo en plantilla
+
+[33mcommit 8d6965b53e9fd86aff1e463f3eed549871d1557e[m
+Author: Fazt <contact@fazweb.com>
+Date:   Fri Aug 26 15:09:46 2022 -0600
+
+    Se cambiaron en archivo clasificaciondeproductos, se uso reemplazar y cambie y por tYES
+
+[33mcommit 46f7c888072870113708c912116ca42340c5bc8b[m
+Author: Fazt <contact@fazweb.com>
+Date:   Fri Aug 26 14:44:39 2022 -0600
+
+    agregue la secuencia de codigo = numero item , importante para plantilla los y y los n se convierten en tYES y tNO para la plantilla, falta agregar los codigos de familia, subfamilia y marca
+
+[33mcommit ca045a6cd8398327bc94131b3d8ff3d48b84e63f[m
+Author: Fazt <contact@fazweb.com>
+Date:   Thu Aug 25 15:48:11 2022 -0600
+
+    en hoja1(2) se encuentran los codigos nuevos
+
+[33mcommit db98e3bb50d5f3ca9051b542faa82e5519052397[m
+Author: Fazt <contact@fazweb.com>
+Date:   Thu Aug 25 15:46:41 2022 -0600
+
+    en archivo de excel clasificaciondeproductos.xlsx hoja3 se encuentran los codigos y campos que se van utilizar en plantilla para cargar codigos nuevos, pero antes se necesita ponerles el codigo nuevo mas el item pendiente
+
+[33mcommit 047f2c85d95556e49e8ad52ef11db7f27c014ff5[m
+Author: Fazt <contact@fazweb.com>
+Date:   Thu Aug 25 15:13:37 2022 -0600
+
+    Se agrego sql que se utilizo con el archivo enviado por agusto para generar los campos que se utilizan en plantilla de codigos nuevos
+
+[33mcommit 0c21c641609a204ca14038b03a55014389e7a693[m
+Author: Fazt <contact@fazweb.com>
+Date:   Thu Aug 25 14:57:08 2022 -0600
+
+    en archivo enviado por agusto se agrega hoja2 y se dejan solo los codigos que tienen su codigo nuevo. falta el numero de item
+
+[33mcommit ac372416dc55f85704b3109b8d9a954da2cec523[m
+Author: Fazt <contact@fazweb.com>
+Date:   Thu Aug 25 14:43:53 2022 -0600
+
+    Se agrego el archivo clasificacion de productos enviado por agusto para crear nuevos codigos
+
+[33mcommit 8614bbeaa6fc286779f785540223f5fdedf2d02e[m
+Author: Fazt <contact@fazweb.com>
+Date:   Thu Aug 25 14:32:10 2022 -0600
+
+    Se agregan 3 archivos 1 txt - plantilla dtw, 1 xlsx - plantilla dtw, 1 sql - para buscar datos que se utilizan en plantilla
